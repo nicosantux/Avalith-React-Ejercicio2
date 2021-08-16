@@ -1,0 +1,42 @@
+.container{
+    position: relative;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+
+.container,
+input:focus + label,
+input:not(:placeholder-shown) + label {
+    background: var(--background);
+	font-size: 0.875rem;
+    padding: 0.5rem 1rem;
+	top: -0.5rem;
+}
+
+.label{
+    color: var(--black);
+    font-size: 1rem;
+    left: 2.5rem;
+    position: absolute;
+    transition: .3s all ease-in-out;
+    top: calc(2.5rem - 16px);
+}
+
+.input{
+    background: none;
+    border: 2px solid var(--black);
+    color: var(--black);
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem 2rem;
+    transition: .3s all ease;
+    width: 100%;
+}
+
+.input::placeholder{
+    color: transparent;
+}
+
+.input:focus{
+    border: 2px solid var(--primaryColor);
+}
