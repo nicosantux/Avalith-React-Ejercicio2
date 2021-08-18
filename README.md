@@ -2,8 +2,9 @@
 
 Obtener la lista de productos del siguiente endpoint.
 
-GET - https://fakestoreapi.com/products = [] productos
-POST - https://fakestoreapi.com/products = {producto} => lo setean en el state
+GET - https://fakestoreapi.com/products = [] productos.
+
+POST - https://fakestoreapi.com/products = {producto} => lo setean en el state.
 
 ```
 [
@@ -25,4 +26,5 @@ Crear un formulario para agregar productos. (La ubicación del formulario queda 
 Los productos se van a guardar en un estado, para agregar un prodcuto deberiamos agregar un producto al estado actual de productos y ese estado se va a renderizar como catálogo de productos.
 
 Utilizar Create React App para generar la aplicación.
+
 Utilizar eslint.
