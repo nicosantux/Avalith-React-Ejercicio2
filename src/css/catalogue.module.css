@@ -1,17 +1,29 @@
-.container{
-    margin: 5rem 0;
+.container {
+  margin: 5rem 0;
 }
 
-.title{
-    color: var(--black);
-    font-size: 2rem;
-    margin-bottom: 2rem;
-    text-transform: uppercase;
-    text-align: center;
+.title {
+  color: var(--black);
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  text-align: center;
 }
 
-.catalogue{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
+.catalogue {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+@media screen and (max-width: 950px) {
+  .catalogue {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .catalogue {
+    grid-template-columns: 1fr;
+  }
 }

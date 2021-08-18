@@ -3,8 +3,6 @@ import React from 'react'
 import styles from '../css/product.module.css'
 
 const Product = ({ description, image, title, price }) => {
-  console.log(image)
-
   return (
     <div className={styles.container}>
       <div className={styles.image_container}>
